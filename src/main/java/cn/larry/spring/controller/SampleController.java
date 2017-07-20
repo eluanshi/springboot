@@ -16,6 +16,11 @@ public class SampleController {
         return "Hello World!";
     }
 
+    /**
+     * springboot 启动入口
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
         SpringApplication.run(SampleController.class, args);
     }
